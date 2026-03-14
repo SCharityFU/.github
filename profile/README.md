@@ -3,166 +3,135 @@
 <div align="center">
 
 ![SCharity Banner](https://img.shields.io/badge/SCharity-Cùng_Nhau_Thay_Đổi-F43F5E?style=for-the-badge)
-[![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![Redux Toolkit](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux-toolkit.js.org/)
+[![Next JS](https://img.shields.io/badge/Next.js%2015-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)](https://tanstack.com/query/v3/)
+[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-**Nền tảng gây quỹ từ thiện minh bạch và uy tín tại Việt Nam**
+**Nền tảng gây quỹ từ thiện minh bạch và uy tín hàng đầu tại Việt Nam**
 
-[Features](#-features) • [Architecture](#-architecture) • [Quick Start](#-quick-start) • [Tech Stack](#-tech-stack) • [Team](#-team)
+[Features](#-key-features) • [Architecture](#-system-architecture) • [Tech Stack](#-technical-stack) • [Quick Start](#-getting-started)
 
 </div>
 
 ---
 
-## 📖 About
+## 📖 About SCharity
 
-**SCharity** là một nền tảng gây quỹ từ thiện trực tuyến, kết nối giữa các nhà tài trợ (Donor) với các dự án, chiến dịch từ thiện mang ý nghĩa sâu sắc đến cộng đồng. SCharity ra đời với sứ mệnh mang đến sự minh bạch tuyệt đối, tự động hoá quy trình phê duyệt – giải ngân, và tối ưu hoá luồng trải nghiệm đóng góp cho xã hội.
-
-### 🎯 Key Highlights
-
-- **💸 Hỗ trợ linh hoạt** - Quyên góp ẩn danh hoặc công khai, linh hoạt lưu lịch sử đóng góp
-- **🔒 Xác thực định danh (eKYC)** - Minh bạch thông tin người tạo dự án và quy trình thiết lập chiến dịch
-- **📊 Admin Dashboard System** - Tính năng báo cáo thống kê chuyên sâu về dòng tiền quyên góp
-- **📢 Nhật ký dự án** - Chức năng Timeline giúp người tạo báo cáo tiến độ bằng minh chứng hình ảnh/video
-- **⚠️ Hệ thống rà soát tự động** - Tiếp nhận "Report" và có công cụ can thiệp khẩn cấp đối với dự án sai lệch
-- **🎨 Giao diện tương tác cao** - Được thiết kế theo chuẩn JolyUI với hiệu ứng Glassmorphism hiện đại
+**SCharity** là một giải pháp công nghệ toàn diện nhằm kết nối các nhà hảo tâm (Donor) với những dự án cộng đồng ý nghĩa. Platform ưu tiên tính **Minh bạch (Transparency)** và **Tin cậy (Trust)** thông qua quy trình định danh eKYC, báo cáo tiến độ bằng hình ảnh/video trực tiếp và hệ thống quản trị dòng tiền chặt chẽ.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-### 💻 Quản trị viên (Admin)
-- **Thống kê toàn diện (Dashboard):** Xem tổng quan các dự án, số liệu người dùng và dòng tiền (thu-chi).
-- **Phê duyệt chiến dịch:** Xem xét và quyết định Accept/Reject các yêu cầu khởi tạo từ người tạo dự án.
-- **Xử lý lệnh giải ngân:** Tiếp nhận, xem xét và cấp phép giao dịch cấp vốn quyên góp.
-- **Kiểm duyệt & Chế tài:** Cưỡng chế "Suspend/Unsuspend" các dự án có dấu hiệu vi phạm và tiếp nhận "Report".
+### 👨‍💼 Admin Management
+- **Intelligent Dashboard**: Thống kê thời gian thực về dòng tiền, số lượng người dùng và hiệu suất chiến dịch.
+- **Campaign Verification**: Quy trình duyệt chiến dịch nghiêm ngặt dựa trên hồ sơ chứng minh.
+- **Financial Control**: Quản lý và phê duyệt các lệnh giải ngân (Withdrawal) đảm bảo tiền đến đúng nơi.
+- **Project Oversight**: Công cụ can thiệp khẩn cấp (Suspend/Terminate) đối với các dự án có dấu hiệu trục lợi.
 
-### 💼 Người tạo chiến dịch (Campaign Creator)
-- **Thiết lập dự án (Create Campaign):** Trình bày câu chuyện, tải lên minh chứng, đặt số tiền mục tiêu và thời hạn.
-- **Cập nhật tiến trình:** Tạo các bài viết cập nhật (Update progress) có kèm minh chứng để gửi báo cáo thông qua Timeline tới nhà hảo tâm.
-- **Quản lý tài chính:** Tra cứu trực tiếp thống kê (Analytics) từng dự án. Gửi yêu cầu rút tiền (Withdraw Request) khi chạm mốc 50% hoặc 100%.
+### 📋 Campaign Creator
+- **Professional Storytelling**: Công cụ tạo chiến dịch với trình soạn thảo Rich-text, tải ảnh/video minh họa.
+- **Real-time Progress Recording**: Đăng tải cập nhật (Timeline) để nhà tài trợ theo dõi quá trình thực hiện dự án.
+- **Fund Management**: Yêu cầu rút tiền theo từng giai đoạn (50%, 100%) và tra cứu Analytics chuyên sâu.
 
-### 🤝 Nhà tài trợ (Donor) & Khách (Guest)
-- **Duyệt dự án:** Khám phá (Browse) và xem chi tiết (View Details) các chiến dịch đang nổi bật.
-- **Quyên góp (Donate):** Lựa chọn tuỳ chọn đóng góp Công khai (Public) hoặc Ẩn danh (Anonymous).
-- **Lịch sử & Lan tỏa:** Theo dõi lại lịch sử quyên góp (Donation History) cá nhân và gửi lại những lời chúc/động viên (Comments) vào từng dự án.
+### 🤝 Donor & Guest
+- **Seamless Donation**: Hỗ trợ quyên góp qua cổng thanh toán hiện đại (PayOS), linh hoạt chọn Ẩn danh/Công khai.
+- **Verified Discovery**: Khám phá danh sách dự án đa dạng, được phân loại và kiểm định rõ ràng.
+- **Interaction**: Gửi lời chúc, bình luận động viên trực tiếp vào trang chi tiết chiến dịch.
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ System Architecture
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    SCHARITY PLATFORM                        │
-└─────────────────────────────────────────────────────────────┘
-
-┌──────────────────────┐         ┌──────────────────────────┐
-│   Website (FE)       │         │   Backend API (BE)       │
-│   (Next.js App)      │◄───────►│   (NodeJS/REST API)      │
-│                      │  HTTPS  │                          │
-│  • Public Pages      │         │   • Authentication       │
-│  • Donor Dashboard   │         │   • Campaign Services    │
-│  • Creator Desk      │         │   • Payment Gateway Hook │
-│  • Admin Control     │         │   • Admin Services       │
-└──────────────────────┘         └──────────────────────────┘
-           │                               │
-┌──────────▼───────────┐         ┌─────────▼────────────────┐
-│      Redux State     │         │       Databases          │
-│    (RTK Query &      │         │   (NoSQL / Relational)   │
-│     Redux Toolkit)   │         │                          │
-└──────────────────────┘         └──────────────────────────┘
-```
-
-### Repository Structure
-
-```
-SCharity/
-├── SCharity_BE/             # Backend API Server
-│   ├── src/                 # System services & controllers
-│   ├── package.json
-│   └── ...
-│
-└── SCharity_FE/             # Frontend Next.js Application
-    ├── app/                 # Next.js App Router (Pages & Layout)
-    ├── components/          # Reusable UI & Layout Components
-    ├── lib/                 # Core logic, Utilities
-    │   └── store/           # Redux Toolkit & RTK Query
-    ├── public/              # Static assets
-    └── package.json
+```mermaid
+graph TD
+    A[Donor / Creator / Admin] -->|HTTPS / Next.js 15| B(Frontend Client)
+    B -->|Redux Toolkit / RTK Query| C{API Gateway}
+    C -->|Express.js / TypeScript| D[Backend Services]
+    D -->|TypeORM| E[(PostgreSQL)]
+    D -->|Redis / BullMQ| F[Async Jobs / Caching]
+    D -->|AWS SDK| G[S3 Object Storage]
+    D -->|Google OAuth| H[Authentication]
+    D -->|PayOS Hook| I[Payment Gateway]
+    
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bfb,stroke:#333,stroke-width:2px
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🛠️ Technical Stack
+
+### Frontend (SCharity_FE)
+- **Framework**: Next.js 15 (App Router), React 19
+- **State Management**: Redux Toolkit & RTK Query
+- **Styling**: Tailwind CSS & Framer Motion (Animations)
+- **UI Components**: Shadcn UI, Radix UI, Lucide Icons
+- **Forms & Validation**: React Hook Form, Zod
+
+### Backend (SCharity_BE)
+- **Core**: Node.js, Express.js (TypeScript)
+- **Database**: PostgreSQL with TypeORM
+- **Infrastructure**: Redis (Cache), BullMQ (Queue processing)
+- **Storage**: AWS S3 (Images & Documents)
+- **Monitoring**: Morgan, Swagger UI
+
+### Services & Tools
+- **Payment**: PayOS Integration
+- **Auth**: Google OAuth 2.0, JWT, Passport.js
+- **DevOps**: Docker, Docker Compose, Nginx
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- npm hoặc yarn
-- Chìa khoá API từ Google OAuth (Cho chứng thực Đăng nhập Google)
+- Node.js 20+
+- Docker & Docker Compose
+- Google Client ID & PayOS API Keys
 
-### 1️⃣ Clone the Repository
+### Installation
 
-```bash
-git clone https://github.com/SCharityFU/SCharity_FE.git
-cd SCharity_FE
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SCharityFU/SCharity.git
+   cd SCharity
+   ```
 
-### 2️⃣ Setup Frontend (FE)
+2. **Backend Setup**
+   ```bash
+   cd SCharity_BE
+   cp .env.example .env
+   npm install
+   npm run dev
+   ```
 
-```bash
-npm install
+3. **Frontend Setup**
+   ```bash
+   cd ../SCharity_FE
+   cp .env.example .env.local
+   npm install
+   npm run dev
+   ```
 
-# Create .env.local file using provided variables
-cp .env.example .env.local
-
-# Add your credentials to .env.local
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id.apps.googleusercontent.com
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
-
-# Start the dev server
-npm run dev
-```
-
-Ứng dụng Frontend sẽ khởi động trên `http://localhost:3000`
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **Framework**: [Next.js](https://nextjs.org/) (App Router, Server Components)
-- **UI Library**: [React.js](https://react.dev/)
-- **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) & RTK Query
-- **Styling**: [TailwindCSS v3](https://tailwindcss.com/)
-- **Design Components**: [Lucide React](https://lucide.dev/), Rainbow Button, Glassmorphism Cards
-- **Authentication**: `@react-oauth/google`
-
-### External Services
-- **Google OAuth API** - Xác thực người dùng (Đăng nhập)
-- **Cổng thanh toán điện tử** - Quản lý giao dịch Quyên góp (VNPay, Stripe,...)
+Ứng dụng sẽ khả dụng tại:
+- Frontend: `http://localhost:3001`
+- Backend API: `http://localhost:5000/api`
+- API Docs: `http://localhost:5000/api-docs`
 
 ---
 
-## 📱 Supported Actors
+## 🤝 Contributing & License
 
-👨‍💻 **Admin** | 🤝 **Donor** | 📋 **Campaign Creator** | 🌍 **Guest**
+Project này được phát triển bởi đội ngũ SCharity. Mọi đóng góp xin vui lòng gửi Pull Request hoặc báo cáo Issue.
 
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Distributed under the **MIT License**.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<div align="center">
+  <sub>Built with ❤️ for a better community.</sub>
+</div>
