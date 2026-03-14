@@ -124,6 +124,20 @@ graph TD
 
 ---
 
+## 👥 Team
+
+<div align="center">
+
+| [<img src="https://github.com/CrisWorld.png" width="100px;"/><br /><sub><b>Nguyễn Minh Hoàng Quốc</b></sub>](https://github.com/CrisWorld) | [<img src="https://github.com/kleqing.png" width="100px;"/><br /><sub><b>Phạm Khánh Nhân</b></sub>](https://github.com/kleqing) | [<img src="https://github.com/aurora-mei.png" width="100px;"/><br /><sub><b>Cao Thị Thanh Huyền</b></sub>](https://github.com/aurora-mei) | [<img src="https://github.com/Ryuseikaiz.png" width="100px;"/><br /><sub><b>Trương Nguyễn Tiến Đạt</b></sub>](https://github.com/Ryuseikaiz) |
+| :---: | :---: | :---: | :---: |
+| Full-stack Developer | Full-stack Developer | Full-stack Developer | Full-stack Developer |
+| [<img src="https://github.com/huydoan961z.png" width="100px;"/><br /><sub><b>Đoàn Trần Quang Huy</b></sub>](https://github.com/huydoan961z) | [<img src="https://github.com/AimKey.png" width="100px;"/><br /><sub><b>Phạm Minh Kiệt</b></sub>](https://github.com/AimKey) | [<img src="https://github.com/lken1514.png" width="100px;"/><br /><sub><b>Lê Hoàng Trung Kiên</b></sub>](https://github.com/lken1514) | |
+| Full-stack Developer | Full-stack Developer | Full-stack Developer | |
+
+</div>
+
+---
+
 ## 🤝 Contributing & License
 
 Project này được phát triển bởi đội ngũ SCharity. Mọi đóng góp xin vui lòng gửi Pull Request hoặc báo cáo Issue.
